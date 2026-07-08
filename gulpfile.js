@@ -18,7 +18,7 @@ const $tailwind_config = './tailwind.config.js';
 const path = {
   src: {
     html: "src/*.html",
-    others: "src/*.+(php|ico|png|txt|xml)",
+    others: ["src/*.+(php|ico|png|txt|xml)", "src/.htaccess"],
     htminc: "src/partials/**/*.htm",
     incdir: "src/partials/",
     vendor: "src/vendor/**/*.*",
